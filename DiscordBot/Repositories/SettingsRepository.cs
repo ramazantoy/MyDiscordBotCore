@@ -16,10 +16,14 @@ namespace DiscordBot.Repositories
             _context = context;
         }
 
+        
         public async Task<Settings> GetByGuildIdAsync(int guildId)
         {
-            return await _context.Settings.FirstOrDefaultAsync(s => s.GuildId == guildId)
-                   ?? new Settings { GuildId = guildId, SecurityLevel = 0, WelcomeMessageEnabled = true };
+            return (await _context.Settings.FirstOrDefaultAsync(s => s.GuildId == guildId))!;
         }
+        
+    
+
+     
     }
 }

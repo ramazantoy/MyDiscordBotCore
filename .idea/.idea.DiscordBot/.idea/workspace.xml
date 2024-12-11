@@ -8,21 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="984c3c1c-bc2b-4289-b64d-47a1a8dfcb52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Entities/Guild.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Entities/Logs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IBot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0d33f35b8852407b933d16bab9a937a820e00/9f/9b5646ac/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Entities/Bot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Interfaces/IBot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,6 +92,8 @@
       <workItem from="1733866451822" duration="357000" />
       <workItem from="1733867199424" duration="2815000" />
       <workItem from="1733870452035" duration="77000" />
+      <workItem from="1733916509710" duration="59000" />
+      <workItem from="1733916578882" duration="2373000" />
     </task>
     <servers />
   </component>

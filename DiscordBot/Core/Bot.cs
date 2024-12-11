@@ -36,19 +36,7 @@ public class Bot : IBot
         _client.GuildAvailable += OnGuildAvailableAsync;
     }
 
-    public async Task StartAsync(IServiceProvider services)
-    {
-        var discordToken = _configuration["DiscordToken"] ?? throw new Exception("Missing Discord token");
-
-        _logger.LogInformation("Starting bot...");
-
-        await _commands.AddModulesAsync(Assembly.GetExecutingAssembly(), _serviceProvider);
-        await _client.LoginAsync(TokenType.Bot, discordToken);
-        await _client.StartAsync();
-
-        _logger.LogInformation("Bot started successfully.");
-    }
-
+ 
     public async Task StartAsync(ServiceProvider services)
     {
         var discordToken = _configuration["DiscordToken"] ?? throw new Exception("Missing Discord token");

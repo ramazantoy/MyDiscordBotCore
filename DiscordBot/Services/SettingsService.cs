@@ -20,8 +20,19 @@ namespace DiscordBot.Services
 
         public async Task UpdateSettingsAsync(Settings settings)
         {
-            await _settingsRepository.AddAsync(settings); 
-            await _settingsRepository.SaveAsync();       
+        
+            var existingSettings = await _settingsRepository.GetByGuildIdAsync(settings.GuildId);
+            if (existingSettings != null)
+            {
+                existingSettings.WelcomeMessageEnabled = settings.WelcomeMessageEnabled; 
+                _settingsRepository.Update(existingSettings);
+            }
+            else
+            {
+                await _settingsRepository.AddAsync(settings);
+            }
+            
+            await _settingsRepository.SaveAsync();
         }
     }
 }
