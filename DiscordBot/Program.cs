@@ -47,7 +47,9 @@ public static class Program
             .AddSingleton<IConfiguration>(configuration)
             .AddDbContext<ApplicationDbContext>() // DbContext
             .AddScoped<ISettingsRepository, SettingsRepository>() // Settings Repository
-            .AddScoped<SettingsService>() // Settings Service
+            .AddScoped<SettingsService>() 
+            .AddScoped<IGuildRepository,GuildRepository>()
+            .AddScoped<GuildService>()
             .AddSingleton(new DiscordSocketClient(new DiscordSocketConfig
             {
                 GatewayIntents = GatewayIntents.AllUnprivileged | GatewayIntents.GuildMessages | GatewayIntents.GuildMembers
@@ -55,6 +57,7 @@ public static class Program
             .AddSingleton<CommandService>()
             .AddScoped<IBot, Bot>() // Bot
             .BuildServiceProvider();
+        
 
         try
         {

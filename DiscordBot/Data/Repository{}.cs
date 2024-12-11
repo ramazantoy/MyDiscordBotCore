@@ -15,6 +15,13 @@ namespace DiscordBot.Data
             _dbSet = _context.Set<T>();
         }
 
+        public async Task<T> GetByDcId(ulong id)
+        {
+            return (await _dbSet.AsNoTracking().
+                FirstOrDefaultAsync(entity => EF.Property<ulong>(entity, "DiscordId") == id))!;
+        }
+
+
         public async Task<T> GetByIdAsync(int id)
         {
             return await _dbSet.FindAsync(id);

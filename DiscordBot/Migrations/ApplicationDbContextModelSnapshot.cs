@@ -35,9 +35,6 @@ namespace DiscordBot.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<ulong>("SettingsChannelId")
-                        .HasColumnType("bigint unsigned");
-
                     b.HasKey("Id");
 
                     b.ToTable("Guilds");
@@ -100,6 +97,12 @@ namespace DiscordBot.Migrations
 
                     b.Property<int>("SecurityLevel")
                         .HasColumnType("int");
+
+                    b.Property<ulong?>("SettingsChannelId")
+                        .HasColumnType("bigint unsigned");
+
+                    b.Property<ulong?>("WelcomeChannelId")
+                        .HasColumnType("bigint unsigned");
 
                     b.Property<bool>("WelcomeMessageEnabled")
                         .HasColumnType("tinyint(1)");

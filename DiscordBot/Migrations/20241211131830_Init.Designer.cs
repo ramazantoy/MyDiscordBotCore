@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiscordBot.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241210214145_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20241211131830_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -99,6 +99,12 @@ namespace DiscordBot.Migrations
 
                     b.Property<int>("SecurityLevel")
                         .HasColumnType("int");
+
+                    b.Property<ulong?>("SettingsChannelId")
+                        .HasColumnType("bigint unsigned");
+
+                    b.Property<ulong?>("WelcomeChannelId")
+                        .HasColumnType("bigint unsigned");
 
                     b.Property<bool>("WelcomeMessageEnabled")
                         .HasColumnType("tinyint(1)");

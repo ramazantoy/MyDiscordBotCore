@@ -17,7 +17,7 @@ namespace DiscordBot.Repositories
         }
 
         
-        public async Task<Settings> GetByGuildIdAsync(int guildId)
+        public async Task<Settings> GetSettingsByGuildIdAsync(int guildId)
         {
             return (await _context.Settings.FirstOrDefaultAsync(s => s.GuildId == guildId))!;
         }

@@ -8,12 +8,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="984c3c1c-bc2b-4289-b64d-47a1a8dfcb52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IGuildRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscordBot/Repositories/GuildRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscordBot/Services/GuildService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/0a57087d-bac8-4c73-a9b8-32b193226503.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/be968b93-84d3-4984-a023-cda936c26467.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/f2a98aa9-e3f3-4436-bdf2-26639b9ce447.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/fe8b7415-204c-4a2d-a394-48a8e5f1d426.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.metadata.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.projects.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Data/ApplicationDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/DiscordBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/DiscordBot.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Entities/Guild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Entities/Guild.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210214145_InitalCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210214145_InitalCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222456_SettingsId.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222456_SettingsId.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222800_SettingsId2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222800_SettingsId2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" afterDir="false" />
     </list>
@@ -30,6 +55,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0d33f35b8852407b933d16bab9a937a820e00/9f/9b5646ac/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0d33f35b8852407b933d16bab9a937a820e00/fe/9d52159c/ModuleBase`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed153cae02724cd3b6126a3bc05b2337200b88/ca/2f8f1962/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Entities/Bot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Interfaces/IBot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/DiscordBot/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,19 +72,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.DiscordBot.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.DiscordBot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DiscordBot" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -93,7 +120,9 @@
       <workItem from="1733867199424" duration="2815000" />
       <workItem from="1733870452035" duration="77000" />
       <workItem from="1733916509710" duration="59000" />
-      <workItem from="1733916578882" duration="2373000" />
+      <workItem from="1733916578882" duration="3196000" />
+      <workItem from="1733920520566" duration="2212000" />
+      <workItem from="1733923144285" duration="5308000" />
     </task>
     <servers />
   </component>

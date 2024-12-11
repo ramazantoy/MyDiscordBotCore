@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DiscordBot.Migrations
 {
-    public partial class InitalCreate : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -101,7 +101,9 @@ namespace DiscordBot.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     GuildId = table.Column<int>(type: "int", nullable: false),
                     SecurityLevel = table.Column<int>(type: "int", nullable: false),
-                    WelcomeMessageEnabled = table.Column<bool>(type: "tinyint(1)", nullable: false)
+                    WelcomeMessageEnabled = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    SettingsChannelId = table.Column<ulong>(type: "bigint unsigned", nullable: true),
+                    WelcomeChannelId = table.Column<ulong>(type: "bigint unsigned", nullable: true)
                 },
                 constraints: table =>
                 {

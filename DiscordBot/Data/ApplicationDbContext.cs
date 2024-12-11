@@ -21,19 +21,18 @@ namespace DiscordBot.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Guild -> Settings birebir ilişkisi
             modelBuilder.Entity<Guild>()
                 .HasOne(g => g.Settings)
                 .WithOne(s => s.Guild)
-                .HasForeignKey<Settings>(s => s.GuildId) // Settings üzerinden foreign key oluşturulur
-                .OnDelete(DeleteBehavior.Cascade); // Guild silinirse Settings de silinir
-
-            // Guild -> Roles bireçok ilişkisi
+                .HasForeignKey<Settings>(s => s.GuildId)
+                .OnDelete(DeleteBehavior.Cascade);
+            
+        
             modelBuilder.Entity<Role>()
                 .HasOne(r => r.Guild)
                 .WithMany(g => g.Roles)
                 .HasForeignKey(r => r.GuildId)
-                .OnDelete(DeleteBehavior.Cascade); // Guild silinirse ilgili roller de silinir
+                .OnDelete(DeleteBehavior.Cascade); 
         }
     }
 }
