@@ -50,7 +50,7 @@ public class Bot : IBot
         await _commands.AddModulesAsync(Assembly.GetExecutingAssembly(), _serviceProvider);
         await _client.LoginAsync(TokenType.Bot, discordToken);
         await _client.StartAsync();
-
+        await _client.SetStatusAsync(UserStatus.DoNotDisturb);
         _logger.LogInformation("Bot started successfully.");
     }
 
@@ -237,7 +237,7 @@ private async Task OnGuildAvailableAsync(SocketGuild guild)
     dbContext.Guilds.Update(existingGuild);
     await dbContext.SaveChangesAsync();
 
-    _logger.LogInformation($"Guild updated: {guild.Name}");
+  //  _logger.LogInformation($"Guild updated: {guild.Name}");
 }
 
 

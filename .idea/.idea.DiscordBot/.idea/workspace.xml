@@ -8,39 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="984c3c1c-bc2b-4289-b64d-47a1a8dfcb52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IGuildRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Repositories/GuildRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscordBot/Services/GuildService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiscordBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/0a57087d-bac8-4c73-a9b8-32b193226503.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/be968b93-84d3-4984-a023-cda936c26467.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/f2a98aa9-e3f3-4436-bdf2-26639b9ce447.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/FileContentIndex/fe8b7415-204c-4a2d-a394-48a8e5f1d426.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/DiscordBot/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/DiscordBot/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.metadata.v6.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/discordbot.projects.v6.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Data/Repository{}.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/DiscordBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/DiscordBot.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Entities/Guild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Entities/Guild.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Entities/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Interfaces/ISettingsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210214145_InitalCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210214145_InitalCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222456_SettingsId.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222456_SettingsId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222800_SettingsId2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/20241210222800_SettingsId2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Modules/SettingsModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Repositories/SettingsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Services/SettingsService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +90,7 @@
       <workItem from="1733916509710" duration="59000" />
       <workItem from="1733916578882" duration="3196000" />
       <workItem from="1733920520566" duration="2212000" />
-      <workItem from="1733923144285" duration="5308000" />
+      <workItem from="1733923144285" duration="5653000" />
     </task>
     <servers />
   </component>
