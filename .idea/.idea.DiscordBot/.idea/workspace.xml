@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="984c3c1c-bc2b-4289-b64d-47a1a8dfcb52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiscordBot/Core/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscordBot/appsettings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <workItem from="1733916509710" duration="59000" />
       <workItem from="1733916578882" duration="3196000" />
       <workItem from="1733920520566" duration="2212000" />
-      <workItem from="1733923144285" duration="5653000" />
+      <workItem from="1733923144285" duration="6161000" />
     </task>
     <servers />
   </component>
