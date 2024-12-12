@@ -1,5 +1,6 @@
 ﻿using DiscordBot.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace DiscordBot.Data
 {
@@ -11,13 +12,26 @@ namespace DiscordBot.Data
         public DbSet<Log> Logs { get; set; }
         public DbSet<Settings> Settings { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseMySql(
-                "Server=localhost;Database=discordbot;User=root;Password=;",
-                new MySqlServerVersion(new Version(8, 0, 25))
-            );
-        }
+      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+      {
+          if (!optionsBuilder.IsConfigured)
+          {
+    
+              var configuration = new ConfigurationBuilder()
+                  .SetBasePath(AppContext.BaseDirectory) 
+                  .AddJsonFile("appsettings.json")      
+                  .Build();
+      
+      
+              var connectionString = configuration.GetConnectionString("DefaultConnection");
+      
+       
+              optionsBuilder.UseMySql(
+                  connectionString,
+                  new MySqlServerVersion(new Version(8, 0, 25))
+              );
+          }
+      }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
